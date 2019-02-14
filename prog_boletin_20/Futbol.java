@@ -12,7 +12,7 @@ public class Futbol {
     }
 
     public Futbol(int numero) {
-        tabla = new int[numero][((numero-1)*2)];
+        tabla = new int[numero][((numero-2)*2)];
         nomEq = new String[numero];
         randNom();
         randGol();
